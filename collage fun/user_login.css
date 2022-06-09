@@ -1,0 +1,11 @@
+h1 {
+ color: white;
+}
+img{height: 40%; border-radius: 100%;}
+.id{ border: 3px solid white; border-bottom-color: white; border-top-color: black;
+  border-left-color: black; border-right-color: black; border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  background-color: black;  color: white; font-size:200%; margin: 1%;padding: 1%;}
+.button{border-radius:30%;margin-top: 2%;  padding: 10px; background-color: black; color: white;font-size: 190%;}
+.button2{border-radius:20%;margin-top: 1%;  padding: 10px; background-color: black; color: white;font-size: 190%;}
+.a{text-decoration:none;}
