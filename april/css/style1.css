@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+/***********************************************/
+/*
+	About template
+	1.header
+	2.navigation
+	3.Post
+	4.Adise
+	5.footer
+*/
+/***********************************************/
+*{ margin:0; padding:0;}
+.head{ background:#248ACB;}
+.head a{ text-decoration:none;}
+.head h1{ padding:2%; color:#FFF;}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clr{ clear:both;}
+body{}
+.head{ height:80px; background:#1DD59F;}
+.sub-head{ width:96%; margin:auto;}
+.logo{ width:20%;}
+.logo h1{ line-height:80px; color:#FFF;}
+.nav{ width:80%;}
+.nav ul{ text-align:right;}
+.nav ul li{ display:inline; margin-left:2%;}
+.nav ul li a{ line-height:80px; color:#FFF; font-size:20px; text-decoration:none;}
+.mid{ min-height:550px; margin:1% 1.50%; }
+.mid-left{ width:19.50%; min-height:550px;}
+.mid-left ul{}
+.mid-left ul li{ list-style:none; padding:5%; background:#1DD59F; margin-top:5px;}
+.mid-left ul li a{ color:#FFF; font-size:20px; font-weight:bold; text-decoration:none;}
+.mid-right{ width:80%; min-height:550px; border:1px solid #000000;}
+.mid-right h2{ padding:1.50%; background:#B2EFBA; color:#FFF;}
+/******************************************************/
+.ins{ width:50%; height:370px; margin:auto; background:#80B8E7;}
+.txt{ height:35px; width:90%; margin-top:10px;}
+.txtmsg{ width:90%; height:200px; margin-top:10px;}
+.btn{height:35px; width:70%; margin-top:10px;}
+/*****************************************************/
+.footer{ background:#1DD59F;}
+.footer h4{ padding:1% 2%; text-align:right; color:#FFF;}
+
