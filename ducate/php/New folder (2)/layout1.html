@@ -1,0 +1,29 @@
+<html>
+<head><title>Text css property</title>
+<style>
+    .header{height:100px; background-color:gray;}    
+    
+    .parent{border:3px solid green;}
+    .parent:after{content: ""; display: block; clear: both;}
+    .parent>div{float:left;height: 450px;}
+    .left{width:20%; background-color:aquamarine;}
+    .center{width:65%; background-color:green;}
+    .right{width:15%; background-color:blue;}
+    
+    .footer{height:70px; background-color:gray;}
+</style>
+    
+</head>
+<body>
+   
+   <div class="header">Header</div>
+    
+    <div class="parent">
+        <div class="left">left</div>
+        <div class="center">center</div>
+        <div class="right">right</div>
+    </div>
+    
+    <div class="footer">footer</div>
+</body>
+</html>

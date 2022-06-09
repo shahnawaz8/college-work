@@ -1,0 +1,33 @@
+/*external style sheet for layout2.html*/
+*{margin: 0px; padding: 0px;}
+.wrapper{border:2px solid black; height: 98%;}
+.header{border:2px solid red;}
+.header:after{content: ""; display: block; clear: both;}
+.header>div{float:left; }
+.logo{background-color:green;width:10%; height: 20%;margin: 0.5%;}
+.right-header{background-color:lime;width:88.5%; height: 20%; margin-top:0.5%;}
+.site-title{background-color:brown; height: 70%;}
+.menu{background-color:red; height: 30%;}
+/*css start for menu ul element*/
+.menu>ul{list-style-type:none;height: 100%;}
+.menu>ul:after{content: ""; display:block; clear: both;}
+.menu>ul>li{float:left; }
+
+.menu>ul>li>a{text-decoration: none; background-color:blue; margin-left:5px;padding-left:7px;padding-right:7px;font-size:24px;color:yellow;}
+.menu>ul>li>a:hover{background-color:black; color:white;border-top:3px solid white;border-bottom:3px solid green;}
+.menu>ul>li>ul{list-style-type:none;display:none; position: relative; }
+.menu>ul>li:hover>ul{display:block;}
+.menu>ul>li>ul>li>a{text-decoration: none; background-color:blue; margin-left:5px;padding-left:7px;padding-right:7px;font-size:24px;color:yellow;}
+.menu>ul>li>ul>li>a:hover{background-color:black; color:white;border-top:3px solid white;border-bottom:3px solid green;}
+
+/*body part css start here*/
+.body{border:2px solid blue; height:70%;}
+.body:after{content: ""; display: block; clear: both;}
+.body>div{float:left;}
+.body>.left-panel{overflow: auto; background-color:bisque; height:97.5%;width:20%; margin: 0.5%;}
+.body>.right-panel{overflow: auto; background-color:bisque; height:97.5%;width:78.5%; margin-top:0.5%; margin-bottom:0.5; margin-right:0.5%;}
+
+/*input filed css*/
+.name{ border-bottom:4px solid red;border-top:0px; border-left:0px;border-right:0px;padding-left:8px; font-size:44px; color:red;background-color: rgba(0, 0, 0,0)}
+
+.footer{text-align: center;background-color:black; color:white;}

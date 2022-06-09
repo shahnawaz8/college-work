@@ -1,0 +1,6 @@
+
+.header:after{content:"";display:block;clear:both;}
+.header{border: 2px solid black; height: 98%; width: 100%;}
+.header>div{float: left;}
+.menu{border: 2px solid red; background-color: greenyellow; height: 10%;width: 10%;}
+.title{border: 2px solid blue; height: 5%;width: 90%}

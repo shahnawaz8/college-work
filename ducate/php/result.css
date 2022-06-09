@@ -1,0 +1,19 @@
+.body {border: 1px solid gray;margin: 4%;height: 100%;}
+.body>h1{text-align: center; color:brown;}
+.body>p{text-align: center;}
+table{text-align: justify;}
+.img1{background-image:url(IMG_0869.jpg); border: 1px solid red;height: 150px;width: 100px; margin-left:1000px; background-position: center; background-size: cover;}
+.back{border: 1px solid brown;}
+.d{width: 60%;}
+.table1{
+            width: 100%;
+           
+        }
+        .table1{
+            border: 1px solid;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+
+

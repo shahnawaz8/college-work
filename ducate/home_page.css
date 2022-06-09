@@ -1,0 +1,43 @@
+/*    .wrapper{background-color: white;height: 15%;}*/
+    .body{background-color: black;height: 100%; }
+    .over{border: 1px solid red; height: 100%; margin-left:15%; margin-right:15%; overflow: auto;}
+    .header{background-color: rgb(78, 193, 10); height: 200px; background-image: url(body.png); background-position:left; background-size: contain;background-repeat: no-repeat;}
+.menu{color:wheat;height:3%;}
+.menu:after{content: ""; display: block;clear: both;}
+    /*.menu>ul{list-style-type: none;}
+    .menu>ul>li{float: left; margin-left: 4%;}
+    .menu>ul>li>a{text-decoration: none; color: aliceblue;}
+    .menu>ul>li>a:hover{color: white;font-size: 110%;}*/
+.menu>div{float: left;}
+.menu>div>a{text-decoration: none;color:white;}
+.sm:hover{border-top:px solid yellow;font-size: 115%; background-color: black; border-bottem:2 px solid black; }
+.sm{ width:6.6%; height: 100%; background-color:gray; padding: 5%;}
+.phone{border: 1px solid blue;height: 50px;width:294px;font-size:40px;background-color: yellow; margin-left:630px;margin-top: 33px;}
+.menu2{border: px solid white;color:wheat; margin-top: 95px;}
+.menu2:after{content: "";display: block;clear: both;}
+.menu2>ul{list-style-type: none;}
+.menu2>ul>li{float: left; font-size: 160%; padding-left: 40px;}
+.user{border: 1 px solid red;background-color: yellow;}
+.user2{height: 100%;background-image: url(body.jpg);background-size: cover;}
+.form{height: 100%;width: 350px;margin-left: 550px;
+    border-bottom-left-radius:  1%; border-bottom-right-radius:  33%;}
+.s1{margin-left: 20%;font-size:40;width:250;color:blue; margin-top: 11;}
+.form>select>option{color:red;}
+.s2{margin-left: 20%;font-size:30;width:125;color:blue;margin-top:10; display:inline;}
+.s3{font-size:30;width:120;color:blue;margin-top:10;}
+.s{margin-left: 74%;margin-top: 8}
+.half:after{content:"";display: block; clear: both;}
+.half>div{float:left;}
+.hleft{border: 1px solid green; color:wheat; width: 65%; height: 100%;}
+.hright{border:1px solid blue; color:wheat; width:34.134%;height: 100%;}
+.half>.hleft>h1{background-color:gray;margin:0;}
+.half>.hright>h1{background-color:black;margin:0;}
+.pra{border: 1px solid red;background-color: gray;height: 250;}
+.pra>h4{margin-left: 210;margin-top:40px;}
+.pra>button{color:blue;margin-left: 200px;background-color: yellow;border: none;height: 30px;width: 100}
+/*text properties*/
+.pra>p{text-transform: capitalize;letter-spacing:2px;word-spacing: 8px; text-align:justify;text-decoration: underline;}
+
+
+
+

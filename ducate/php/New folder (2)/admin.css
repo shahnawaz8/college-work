@@ -1,0 +1,58 @@
+ *{      /* Universal sector*/
+            margin: 0%;
+        }
+        #div1{ /*id selector*/
+            background-color: darkgrey;
+            border: 2px solid white;
+            margin-left: 0px;
+            height: 100%;
+            width: 125px;
+            border-right-color: black;
+            float: left;
+            }
+        #div2{
+            background-color: bisque;
+            width: 1218px;
+            height: 100%;
+        border: 1px solid black;
+        float: right;
+    }
+    
+        #h:hover{
+        
+            font-size: 110%;
+        }
+        #a2:hover{
+            color: red;
+            font-size: 110%;
+            background-color: antiquewhite;
+            
+            
+        }
+        .menu{border: 1px solid black;
+            height: 40px;
+            width: 110px;
+            background-color: orange;
+            margin-right: 30px;
+            margin-left: 1px;
+            padding-top: 20px;
+            padding-left: 10px;
+            font-size: 140%;
+            
+        }
+        .menu:hover{background-color: aquamarine;}
+        
+        #div2-1{
+            height: 40px;
+            border:2px solid white;
+            border-bottom-color:black;
+            background-color: aqua;
+            font-size: 150%;
+            padding-top: 10px;
+        }
+        #div2-2{float: right;
+        margin-right: 20px;
+        }
+        #p{font-size: 70%;}
+    
+    
